@@ -1,0 +1,79 @@
+/* General Accordion Styles */
+.accordion {
+    width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Accordion Item Styles */
+.accordion-item {
+    margin-bottom: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.accordion-item:last-child {
+    margin-bottom: 0;
+}
+
+/* Accordion Title Button */
+.accordion-title {
+    width: 97%;
+    padding: 16px 20px;
+    text-align: left;
+    background-color: #f5f5f5;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.2s ease;
+}
+
+.accordion-title:hover {
+    background-color: #e8e8e8;
+}
+
+/* Icon styling */
+.accordion-title svg {
+    font-size: 16px;
+    color: #666666;
+    flex-shrink: 0;
+    margin-left: 10px;
+}
+
+/* Content Styles */
+.accordion-content {
+    padding: 16px 20px;
+    background-color: #fafafa;
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.6;
+    border-top: 1px solid #e0e0e0;
+}
+
+/* Empty state message */
+.accordion p {
+    font-size: 16px;
+    color: #666666;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 640px) {
+    .accordion {
+        width: calc(100% - 40px);
+        margin: 20px;
+        padding: 16px;
+    }
+}
