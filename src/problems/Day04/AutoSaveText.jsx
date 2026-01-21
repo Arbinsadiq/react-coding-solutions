@@ -24,7 +24,7 @@ const AutoSaveText = () => {
             <h1>Auto Save Text</h1>
             <form>
                 <label htmlFor="text">Name:</label>
-                <input type="text" vale={text} onChange={(e) => setText(e.target.value)} />
+                <input type="text" value={text} onChange={(e) => setText(e.target.value)} />
                 <button onClick={() => ClearText()}>Clear</button>
             </form>
         </div>
