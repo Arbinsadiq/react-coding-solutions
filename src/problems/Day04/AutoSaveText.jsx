@@ -17,6 +17,7 @@ const AutoSaveText = () => {
 
     const ClearText = () => {
         setText("");
+        localStorage.removeItem("autosave-text");
     }
     return (
         <div>
