@@ -4,6 +4,7 @@ import Counter from './problems/Day01/Counter'
 import Accordion from './problems/Day02/Accordion'
 import LeapYear from './problems/Day03/LeapYear'
 import AutoSaveText from './problems/Day04/AutoSaveText'
+import ZigZagStringConverter from './problems/Day05/ZigZagStringConverter'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/Accordion" element={<Accordion />} />
         <Route path="/LeapYear" element={<LeapYear />} />
         <Route path="/AutoSaveText" element={<AutoSaveText />} />
+        <Route path="/ZigZagStringConverter" element={<ZigZagStringConverter />} />
       </Routes>
     </BrowserRouter>
     </>
