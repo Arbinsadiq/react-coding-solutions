@@ -26,7 +26,7 @@ const EvenOrOdd = () => {
             <input className="number-input" type="number" value={number} onChange={(e) => setNumber(e.target.value)}/>
             <button className="check-button" type="button" onClick={CheckEvenOrOdd}>Check</button>
             <div className="result-container">
-                {loading ? <p>Checking...</p> : <p>Result: {result}</p>}
+                {loading ? <p>Checking...</p> : <p>{result}</p>}
             </div>
         </div>
     )
