@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import "./styles.css";
+import { useState } from "react";
+import "./style.css";
 
 function AsteriskFieldValidation() {
   const [name, setName] = useState("");
